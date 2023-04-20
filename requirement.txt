@@ -1,0 +1,10 @@
+matplotlib
+OmegaConf
+torch>=1.8.0
+pynndescent
+umap-learn
+mujoco-py<2.2,>=2.1
+dm_control==0.0.403778684
+d3rlpy
+networkx
+git+https://github.com/rail-berkeley/d4rl@master#egg=d4rl

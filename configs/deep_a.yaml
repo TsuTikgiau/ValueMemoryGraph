@@ -1,0 +1,7 @@
+action_translator:
+  hidden_units:
+  - 256
+  - 256
+  - 256
+  - 256
+  use_skip: false
