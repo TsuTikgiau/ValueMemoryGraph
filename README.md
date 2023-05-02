@@ -1,6 +1,11 @@
 # Value Memory Graph: A Graph-Structured World Model for Offline Reinforcement Learning
 Official Repository of the ICLR2023 paper Value Memory Graph.
 
+![demo1](fig/video-kitchen.gif)
+![demo2](fig/video-maze.gif)
+![demo3](fig/video-pen.gif)
+
+
 ## Install the Environment
 Please run the following commands to install the environment via conda.
 
@@ -32,3 +37,14 @@ The hyperparameters we use can be found in the Appx.D of the paper.
 Set the argument '--action_mode' to 'top' when the search step N_s is infinit. Otherwise, set it to 'neighbor'. 
 Note that different checkpoints in a single training case may perform differently 
 and you need to search for the checkpoint for the best performance.
+
+## Cite
+Please cite us as
+```
+@article{zhu2022value,
+  title={Value Memory Graph: A Graph-Structured World Model for Offline Reinforcement Learning},
+  author={Zhu, Deyao and Li, Li Erran and Elhoseiny, Mohamed},
+  journal={arXiv preprint arXiv:2206.04384},
+  year={2022}
+}
+```
